@@ -2,7 +2,7 @@
   "name": "react-scribbles",
   "version": "0.1.0",
   "description": "A Completely Unstyled Component Library",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
