@@ -1,7 +1,6 @@
 import React from 'react';
 import { ICssClasses } from '../interfaces';
 import classNames from 'classnames';
-import './styles.css';
 
 interface INavMenuProps {
   className?: string | ICssClasses;
