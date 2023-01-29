@@ -8,7 +8,7 @@ interface INavMenuProps {
   children: React.ReactElement[];
 }
 
-const HorizontalNavMenu = ({ className, children }: INavMenuProps) => {
+export const HorizontalNavMenu = ({ className, children }: INavMenuProps) => {
   const cssClasses = classNames(className);
 
   return (
@@ -17,5 +17,3 @@ const HorizontalNavMenu = ({ className, children }: INavMenuProps) => {
     </div>
   );
 };
-
-export default HorizontalNavMenu;

@@ -1,6 +1,6 @@
 import React from "react";
-import HorizontalNavMenu from "../../src/Navigation/HorizontalNavMenu";
-import { Nav, Container } from "../../src/Navigation/NavOption";
+import { HorizontalNavMenu } from "../../src/Navigation/NavMenus";
+import { Nav, Container } from "../../src/Navigation/Nav";
 import './navExample.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
