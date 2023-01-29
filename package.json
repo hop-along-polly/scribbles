@@ -1,13 +1,13 @@
 {
   "name": "react-scribbles",
-  "version": "0.0.2",
+  "version": "0.0.11",
   "description": "A Completely Unstyled Component Library",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": ""
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
