@@ -1,9 +1,14 @@
 import React from 'react';
-import SaveAndContinueButton from '../../src/Buttons/SaveAndContinue';
+import ActionButton from '../../src/Buttons/ActionButton';
 
 export default {
-  title: "Buttons/SaveAndContinue",
-  component: SaveAndContinueButton
+  title: "Buttons/ActionButton",
+  component: ActionButton
 }
 
-export const Primary = () => (<SaveAndContinueButton onClick={() => { console.log('Clicked') }} label={"Save & Continue"} />);
+export const Primary = () => (
+  <ActionButton
+    onClick={() => { alert('Action Button Clicked') }}
+    label={"Save & Continue"}
+  />
+);
