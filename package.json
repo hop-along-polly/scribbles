@@ -1,12 +1,13 @@
 {
   "name": "react-scribbles",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Completely Unstyled Component Library",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": ""
   },
   "repository": {
     "type": "git",
@@ -17,14 +18,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ezzy1337/scribbles/issues"
-  },
-  "exports": {
-    "Navigation": {
-      "import": "./src/Navigation"
-    },
-    "Buttons": {
-      "import": "./src/Buttons"
-    }
   },
   "homepage": "https://github.com/ezzy1337/scribbles#readme",
   "devDependencies": {
@@ -48,5 +41,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "classnames": "^2.3.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
