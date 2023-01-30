@@ -2,6 +2,9 @@ Publishing your very own React Component Library to NPM using Typescript & Story
 
 [NPM Public Package](https://docs.npmjs.com/creating-node-js-modules)
 
+# References
+ - https://blog.fildon.me/publishing-typescript-react-components-to-npm
+ - https://itnext.io/how-to-package-your-react-component-for-distribution-via-npm-d32d4bf71b4f
 
 ## Setting up Git Repository
 1. Create Git repository.
