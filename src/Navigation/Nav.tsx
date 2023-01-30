@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
-import { ICssClasses } from '../interfaces';
+import { ICssClasses } from '../interfaces'
 
 interface INavOptionProps {
   url: string;
@@ -22,16 +22,5 @@ export const Nav = ({ url, newTab, startIcon, endIcon, className, children }: IN
       {children}
       {end}
     </a>
-  );
-};
-
-// TODO Add Props Interface
-export const Container = ({ className, children }: any) => {
-  const cssClasses = classNames(className);
-
-  return (
-    <div className={cssClasses}>
-      {children}
-    </div>
   );
 };

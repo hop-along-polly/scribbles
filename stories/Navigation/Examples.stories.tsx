@@ -1,6 +1,7 @@
 import React from "react";
 import { HorizontalNavMenu } from "../../src/Navigation/NavMenus";
-import { Nav, Container } from "../../src/Navigation/Nav";
+import { Nav } from "../../src/Navigation/Nav";
+import { Container } from "../../src/Containers";
 import './navExample.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -16,7 +17,7 @@ export const DesktopExample = () => {
   const carat = (<FontAwesomeIcon style={{ paddingLeft: "5px" }} icon={faCaretDown} />);
 
   return (
-    <HorizontalNavMenu className='example-navbar'>
+    <Container className='example-navbar'>
       <Nav url="#home" className="example-nav" startIcon={homeIcon}>Home</Nav>
       <Container className="example-subnav">
         <Nav url='#about' className="example-nav" endIcon={carat}>About</Nav>
@@ -45,6 +46,6 @@ export const DesktopExample = () => {
         </Container>
       </Container>
       <Nav url="#contact" className="example-nav">Contact</Nav>
-    </HorizontalNavMenu>
+    </Container>
   );
 };
